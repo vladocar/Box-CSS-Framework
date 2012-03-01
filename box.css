@@ -1,0 +1,57 @@
+.g1,.g2,.g3,.g4,.g5,.g6,.g7,.g8,.g9,.g10,.g11,.g12,
+.gp10,.gp12,.gp17,.gp20,.gp25,.gp33,.gp50,.gp67,.gp75,.gp80,.gp83,.gp100
+{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box; 
+	display:inline-block;
+	margin-right: -4px; /* inline-block hack*/
+	
+	/* You could and you should change these settings */
+	padding-left:10px;
+	border-left: 15px solid #fff; /* the border becomes gutter */
+	vertical-align:top;
+} 
+
+.g1  {width:80px; }
+.g2  {width:160px;}
+.g3  {width:240px;}
+.g4  {width:320px;}
+.g5  {width:400px;}
+.g6  {width:480px;}
+.g7  {width:560px;}
+.g8  {width:640px;}
+.g9  {width:720px;}
+.g10 {width:800px;}
+.g11 {width:880px;}
+.g12 {width:960px;}
+
+.gp10  {width:10%}
+.gp12  {width:12.5%}
+.gp17  {width:16.66%}
+.gp20  {width:20%}
+.gp25  {width:25%}
+.gp33  {width:33.33%}
+.gp50  {width:50%}
+.gp67  {width:66.67%}
+.gp75  {width:75%}
+.gp80  {width:80%}
+.gp83  {width:83.34%}
+.gp100 {width:100%}
+ 
+.inside{padding: 0; border:0;}
+.clear{clear:both; }
+
+@media handheld, only screen and (max-width: 480px) {
+.g1,.g2,.g3,.g4,.g5,.g6,.g7,.g8,.g9,.g10,.g11,.g12,
+.gp10,.gp12,.gp17,.gp20,.gp25,.gp33,.gp50,.gp67,.gp75,.gp80,.gp83,.gp100{
+	
+	width: 100%;
+	border: 0 !important;
+	padding:10px 0 10px 0 !important;
+	img {
+	     max-width:100%;
+	     height:auto;
+	     }
+	}
+}

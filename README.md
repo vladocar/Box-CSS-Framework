@@ -12,11 +12,11 @@ Box - CSS Framework:
   * Responsive Grid optimized for mobile devices.
   * Works in IE8 and later
   
-###### [Grid px](http://dl.dropbox.com/u/2111778/Box-CSS-Framework/Grid.html)
+###### [Grid px](http://vladocar.github.io/Box-CSS-Framework/Grid.html)
 
-###### [Grid %](http://dl.dropbox.com/u/2111778/Box-CSS-Framework/Grid1.html)
+###### [Grid %](http://vladocar.github.io/Box-CSS-Framework/Grid1.html)
 
-###### [Demo](http://dl.dropbox.com/u/2111778/Box-CSS-Framework/Demo.html)
+###### [Demo](http://vladocar.github.io/Box-CSS-Framework/Demo.html)
 
 ###### [Learn more about this Framework here ..](http://www.vcarrer.com/2012/03/box-css-framework.html)
 
